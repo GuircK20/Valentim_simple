@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>  
+    <head>
+    
+    </head>
+    <body>
+        <style>
+            div{
+                background-color: white;
+                border-radius: 100px;
+
+            }
+            body{
+                background-color: red;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            h1{
+                margin-top: 20%;
+                margin-left: 40%;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            }
+            #button1{
+                border: none;
+                background-color: red;
+                padding: 15px 25px;
+                margin-left: 1100px;
+                width: 100px;
+                position: absolute;
+                cursor: pointer;
+            }
+            .button2{
+                border: none;
+                background-color: rgb(78, 218, 78);
+                padding: 15px 32px;
+                margin-top: 0%;
+                margin-left: 1300px;
+                width: 100px;
+                cursor: pointer;
+            }
+            .img1{
+                margin: auto;
+                margin-left:60%;
+                width: 15%;
+                margin-bottom: -20%;
+            }
+            .img2{
+                margin-top: 5%;
+                margin-left: 45%;
+            }
+        </style>
+        <div>
+            <img class="img1"src="cora.png" alt="cora">
+            <h1>Olá amor, queres ser a minha Valentim?</h1>
+        
+            <button id="button1">Não</button>
+            <a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g"><button class="button2">Sim</button></a>
+
+            <img class="img2" src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="ursinho-fofo-apaixonado">
+        </div>
+        
+        <script>
+            //function myFunction(){
+
+            //var botaoNao = document.getElementById("button1")
+
+            //var larguraJanela = window.offsetWidth;
+            //var alturaJanela = window.offsetHeight;
+
+            //var maxX =alturaJanela - botaoNao.offsetWidth;
+            //var maxY =larguraJanela - botaoNao.offsetHeight;
+
+            //var aleatorioX = Math.floor(Math.random() * maxX);
+            //var aleatorioY = Math.floor(Math.random() * maxY);
+
+            //botaoNao.style.right = aleatorioX + "px";
+            //botaoNao.style.top = aleatorioY + "px";
+            //}
+        </script>
+
+    </body>
+</html>
